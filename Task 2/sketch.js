@@ -1,0 +1,1 @@
+var x=0;var colour=255;function setup(){  createCanvas(500,500);      background(255);}function draw(){      if(mouseIsPressed) {    textSize(x);    x=x+0.1;    text("Hey",mouseX,mouseY);    fill(colour,10,20);    colour=colour-0.5;    noStroke();  }  }
